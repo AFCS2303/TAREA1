@@ -11,7 +11,7 @@ struct Pos {
 };
 
 // Función para reiniciar todas las variables de estado
-void reiniciarEstado(bool visitado[MAX_N][MAX_N], int& recursivas, bool& encontrado, int& LongitudCaminoEncontrado, int& LongitudCaminoActual, Pos CaminoEncontrado[MAX_N * MAX_N]) { 
+void ReiniciarEstado(bool visitado[MAX_N][MAX_N], int& recursivas, bool& encontrado, int& LongitudCaminoEncontrado, int& LongitudCaminoActual, Pos CaminoEncontrado[MAX_N * MAX_N]) { 
     for (int i = 0; i < MAX_N; ++i) {
         for (int j = 0; j < MAX_N; ++j) {
             visitado[i][j] = false;
@@ -214,7 +214,7 @@ int main() {
             cout << "FilaxColumna: No se encontro camino." << endl;
         }
 
-        reiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
+        ReiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
 
         auto start2 = high_resolution_clock::now();
         BackTrackingColumnaXFila(0, 0, Laberinto, visitado, N, recursivas, encontrado, LongitudCaminoActual, LongitudCaminoEncontrado, CaminoEncontrado);
@@ -228,7 +228,7 @@ int main() {
 
         cout << endl;
 
-        reiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
+        ReiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
     }
 
     return 0;
