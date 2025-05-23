@@ -12,17 +12,18 @@ struct Pos {
 
 // Función para reiniciar todas las variables de estado
 void reiniciarEstado(bool visitado[MAX_N][MAX_N], int& recursivas, bool& encontrado, int& LongitudCaminoEncontrado, int& LongitudCaminoActual, Pos CaminoEncontrado[MAX_N * MAX_N]) { 
-    
     for (int i = 0; i < MAX_N; ++i) {
         for (int j = 0; j < MAX_N; ++j) {
             visitado[i][j] = false;
         }
     }
-
     recursivas = 0; 
     encontrado = false; 
     LongitudCaminoEncontrado = 0; 
     LongitudCaminoActual = 0; 
+    for (int i = 0; i < MAX_N * MAX_N; ++i) {
+        CaminoEncontrado[i] = {0, 0};
+    }
 }
 
 bool EsValido(int x, int y, int Laberinto[MAX_N][MAX_N], bool visitado[MAX_N][MAX_N], int N) {
@@ -45,7 +46,7 @@ void BackTrackingFilaXColumna(int x, int y, int Laberinto[MAX_N][MAX_N], bool vi
 
 
     for (int i = 0; i < 4; ++i) { 
-        int nx = x + DireccionesX[i]; //x=0 0+1 =1  // alejandro monagueño sexo, pasa este mensaje de Alejandro monagueño sexo y te llovera el sexo Alejandro monagueño sexo
+        int nx = x + DireccionesX[i]; 
         int ny = y + DireccionesY[i]; 
         if (EsValido(nx, ny, Laberinto, visitado, N)) { 
             BackTrackingFilaXColumna(nx, ny, Laberinto, visitado, N, recursivas, encontrado, LongitudCaminoActual, LongitudCaminoEncontrado, CaminoEncontrado); 
@@ -103,55 +104,132 @@ int main() {
     Pos CaminoEncontrado[MAX_N * MAX_N];
     
     // Laberinto
-   int N = 10;
+   int N = 0;
+    cout << "Ingrese el Size del laberinto (N x N): ";
+   cin >> N;
     int Laberinto[MAX_N][MAX_N] = {
-      // 0  1  2  3  4  5  6  7  8  9
-        {0, 1, 0, 0, 0, 1, 0, 0, 0, 1},  // Fila 0
-        {0, 1, 0, 1, 1, 1, 0, 1, 0, 1},  // Fila 1 (muro clave en (1,4))
-        {0, 0, 0, 1, 0, 1, 0, 1, 0, 0},  // Fila 2
-        {0, 1, 0, 1, 0, 0, 0, 1, 1, 0},  // Fila 3
-        {1, 1, 0, 1, 0, 1, 1, 1, 0, 0},  // Fila 4
-        {0, 0, 0, 0, 0, 1, 0, 0, 0, 1},  // Fila 5 (¡Punto de bifurcación!)
-        {0, 1, 1, 1, 0, 1, 0, 1, 0, 1},  // Fila 6
-        {0, 0, 0, 1, 0, 0, 0, 1, 0, 1},  // Fila 7
-        {0, 1, 0, 1, 0, 1, 0, 1, 0, 1},  // Fila 8
-        {0, 0, 0, 0, 0, 1, 0, 0, 2, 1}   // Fila 9 (Salida en (9,8))
-    };
+    {0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0},
+    {0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1},
+    {0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1},
+    {0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1},
+    {0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1},
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2}  // Salida en (49,49)
+    };  
+    
+
+
+ /*  int Laberinto[MAX_N][MAX_N] = {
+    {0, 1, 0, 0, 0, 1, 0, 0, 0, 1},  // Fila 0 (Inicio en (0,0))
+    {0, 1, 0, 1, 1, 1, 0, 1, 0, 1},  // Fila 1
+    {0, 0, 0, 1, 0, 1, 0, 1, 0, 0},  // Fila 2
+    {0, 1, 0, 1, 0, 0, 0, 1, 1, 0},  // Fila 3
+    {1, 1, 0, 1, 0, 1, 1, 1, 0, 0},  // Fila 4
+    {0, 0, 0, 0, 0, 1, 0, 0, 0, 1},  // Fila 5 (¡Punto de bifurcación!)
+    {0, 1, 1, 1, 0, 1, 0, 1, 0, 1},  // Fila 6
+    {0, 0, 0, 1, 0, 0, 0, 1, 0, 1},  // Fila 7
+    {0, 1, 0, 1, 0, 1, 0, 1, 0, 1},  // Fila 8
+    {0, 0, 0, 0, 0, 1, 0, 0, 2, 1}   // Fila 9 (Salida en (9,8))
+    };  */
+  
+
+
+     /* int Laberinto[MAX_N][MAX_N] = {
+    {0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0}, // Fila 0 (Inicio)
+    {0,1,0,1,1,1,0,1,0,1,1,1,0,1,0,1,1,1,1,0},
+    {0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0},
+    {0,1,0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0},
+    {0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0},
+    {0,1,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,0},
+    {0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0},
+    {0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,0,1,0},
+    {0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0},
+    {1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0},
+    {0,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0},
+    {0,1,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0},
+    {0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0},
+    {1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0}   // Fila 19 (Salida en (19,19))
+    };  */
+ 
 
     // Primera ejecución: FilaXColumna
-    cout << "FilasXColumnas" << endl;
-    auto start1 = high_resolution_clock::now();
-    BackTrackingFilaXColumna(0, 0, Laberinto, visitado, N,recursivas, encontrado,LongitudCaminoActual,LongitudCaminoEncontrado,CaminoEncontrado);
-    auto end1 = high_resolution_clock::now();
-    duration<double, milli> duracion1 = end1 - start1;
+    for (int iter = 1; iter <= 100; iter++) {
+        cout << "Iteracion " << iter << endl;
 
-    if (encontrado) {
-        imprimirCamino(CaminoEncontrado, LongitudCaminoEncontrado);
-        cout << "Celdas en el camino: " << LongitudCaminoEncontrado << endl;
-    } else {
-        cout << "No se encontró un camino." << endl;
+        auto start1 = high_resolution_clock::now();
+        BackTrackingFilaXColumna(0, 0, Laberinto, visitado, N, recursivas, encontrado, LongitudCaminoActual, LongitudCaminoEncontrado, CaminoEncontrado);
+        auto end1 = high_resolution_clock::now();
+        duration<double, milli> duracion1 = end1 - start1;
+        if (encontrado) {
+            cout << "FilaxColumna: Tiempo de ejecucion: (" << duracion1.count() << "), recursivas: (" << recursivas << "), celdas usadas: (" << LongitudCaminoEncontrado << ")" << endl;
+        } else {
+            cout << "FilaxColumna: No se encontro camino." << endl;
+        }
+
+        reiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
+
+        auto start2 = high_resolution_clock::now();
+        BackTrackingColumnaXFila(0, 0, Laberinto, visitado, N, recursivas, encontrado, LongitudCaminoActual, LongitudCaminoEncontrado, CaminoEncontrado);
+        auto end2 = high_resolution_clock::now();
+        duration<double, milli> duracion2 = end2 - start2;
+        if (encontrado) {
+            cout << "ColumnaXFila: Tiempo de ejecucion: (" << duracion2.count() << "), recursivas: (" << recursivas << "), celdas usadas: (" << LongitudCaminoEncontrado << ")" << endl;
+        } else {
+            cout << "ColumnaXFila: No se encontro camino." << endl;
+        }
+
+        cout << endl;
+
+        reiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual, CaminoEncontrado);
     }
-    cout << "Llamadas recursivas: " << recursivas << endl;
-    cout << "Tiempo de ejecución: " << duracion1.count() << " ms" << endl;
-
-    // Reiniciar estado para la segunda ejecución
-    reiniciarEstado(visitado, recursivas, encontrado, LongitudCaminoEncontrado, LongitudCaminoActual,CaminoEncontrado);
-
-    // Segunda ejecución: ColumnaXFila
-    cout << "Priorizando ColumnasXFilas" << endl;
-    auto start2 = high_resolution_clock::now();
-    BackTrackingColumnaXFila(0, 0, Laberinto, visitado, N,recursivas, encontrado,LongitudCaminoActual, LongitudCaminoEncontrado, CaminoEncontrado);
-    auto end2 = high_resolution_clock::now();
-    duration<double, milli> duracion2 = end2 - start2;
-
-    if (encontrado) {
-        imprimirCamino(CaminoEncontrado, LongitudCaminoEncontrado);
-        cout << "Celdas en el camino: " << LongitudCaminoEncontrado << endl;
-    } else {
-        cout << "No se encontró un camino." << endl;
-    }
-    cout << "Llamadas recursivas: " << recursivas << endl;
-    cout << "Tiempo de ejecución: " << duracion2.count() << " ms" << endl;
 
     return 0;
 }
