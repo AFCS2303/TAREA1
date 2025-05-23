@@ -1,0 +1,1413 @@
+N = 10;
+K = 1;
+FilaXColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+K = 10;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.0076), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+Iteracion 5a: Tiempo de ejecucion: (0.0007), recursivas: (18)
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0102), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+K=100;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (43)
+Iteracion 5a: Tiempo de ejecucion: (0.0006), recursivas: (18)
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0006), recursivas: (18)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.018), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 11
+FilaxColumna: Tiempo de ejecucion: (0.0184), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 12
+FilaxColumna: Tiempo de ejecucion: (0.0174), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 13
+FilaxColumna: Tiempo de ejecucion: (0.0173), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 14
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 15
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0012), recursivas: (18)
+
+Iteracion 16
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 17
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0012), recursivas: (18)
+
+Iteracion 18
+FilaxColumna: Tiempo de ejecucion: (0.0039), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 19
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 20
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 21
+FilaxColumna: Tiempo de ejecucion: (0.0175), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 22
+FilaxColumna: Tiempo de ejecucion: (0.0171), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 23
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 24
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0041), recursivas: (18)
+
+Iteracion 25
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 26
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 27
+FilaxColumna: Tiempo de ejecucion: (0.0181), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 28
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 29
+FilaxColumna: Tiempo de ejecucion: (0.0076), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 30
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 31
+FilaxColumna: Tiempo de ejecucion: (0.0037), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 32
+FilaxColumna: Tiempo de ejecucion: (0.004), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 33
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0012), recursivas: (18)
+
+Iteracion 34
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 35
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+Iteracion 36
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 37
+FilaxColumna: Tiempo de ejecucion: (0.0076), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 38
+FilaxColumna: Tiempo de ejecucion: (0.0036), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 39
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 40
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 41
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 42
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 43
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0012), recursivas: (18)
+
+Iteracion 44
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 45
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 46
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 47
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 48
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 49
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 50
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 51
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 52
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 53
+FilaxColumna: Tiempo de ejecucion: (0.0036), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 54
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 55
+FilaxColumna: Tiempo de ejecucion: (0.0038), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 56
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 57
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 58
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 59
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 60
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 61
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 62
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 63
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 64
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 65
+FilaxColumna: Tiempo de ejecucion: (0.0076), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 66
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 67
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 68
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 69
+FilaxColumna: Tiempo de ejecucion: (0.0077), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 70
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 71
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 72
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 73
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 74
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 75
+FilaxColumna: Tiempo de ejecucion: (0.0076), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 76
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 77
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 78
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 79
+FilaxColumna: Tiempo de ejecucion: (0.0033), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 80
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0016), recursivas: (18)
+
+Iteracion 81
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 82
+FilaxColumna: Tiempo de ejecucion: (0.0036), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0057), recursivas: (18)
+
+Iteracion 83
+FilaxColumna: Tiempo de ejecucion: (0.0037), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0012), recursivas: (18)
+
+Iteracion 84
+FilaxColumna: Tiempo de ejecucion: (0.0082), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 85
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 86
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 87
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.001), recursivas: (18)
+
+Iteracion 88
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 89
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 90
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 91
+FilaxColumna: Tiempo de ejecucion: (0.0031), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 92
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0013), recursivas: (18)
+
+Iteracion 93
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0016), recursivas: (18)
+
+Iteracion 94
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 95
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 96
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0008), recursivas: (18)
+
+Iteracion 97
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0011), recursivas: (18)
+
+Iteracion 98
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0009), recursivas: (18)
+
+Iteracion 100
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (43)
+ColumnaXFila: Tiempo de ejecucion: (0.0007), recursivas: (18)
+
+
+
+
+N = 20;
+k = 1
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+k = 10;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0019), recursivas: (56)
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+Iteracion 5a: Tiempo de ejecucion: (0.0018), recursivas: (56)
+FilaxColumna: Tiempo de ejecucion: (0.0015), recursivas: (53)
+Iteracion 6a: Tiempo de ejecucion: (0.0018), recursivas: (56)
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+Iteracion 7a: Tiempo de ejecucion: (0.0018), recursivas: (56)
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+Iteracion 5
+FilaxColumna: Tiempo de ejecucion: (0.0015), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+FilaxColumna: Tiempo de ejecucion: (0.0013), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0018), recursivas: (56)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0019), recursivas: (56)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0014), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+
+K=100;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0156), recursivas: (56)
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.002), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0156), recursivas: (56)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 5
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.3184), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0723), recursivas: (56)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 11
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 12
+FilaxColumna: Tiempo de ejecucion: (0.0032), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 13
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0036), recursivas: (56)
+
+Iteracion 14
+FilaxColumna: Tiempo de ejecucion: (0.0035), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 15
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0029), recursivas: (56)
+
+Iteracion 16
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 17
+FilaxColumna: Tiempo de ejecucion: (0.0153), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 18
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 19
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0072), recursivas: (56)
+
+Iteracion 20
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0035), recursivas: (56)
+
+Iteracion 21
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 22
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0023), recursivas: (56)
+
+Iteracion 23
+FilaxColumna: Tiempo de ejecucion: (0.0018), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 24
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0029), recursivas: (56)
+
+Iteracion 25
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 26
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 27
+FilaxColumna: Tiempo de ejecucion: (0.002), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 28
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 29
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 30
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 31
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 32
+FilaxColumna: Tiempo de ejecucion: (0.0034), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 33
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 34
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 35
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 36
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 37
+FilaxColumna: Tiempo de ejecucion: (0.0024), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0031), recursivas: (56)
+
+Iteracion 38
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 39
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0029), recursivas: (56)
+
+Iteracion 40
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 41
+FilaxColumna: Tiempo de ejecucion: (0.0024), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 42
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 43
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 44
+FilaxColumna: Tiempo de ejecucion: (0.0026), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0034), recursivas: (56)
+
+Iteracion 45
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 46
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 47
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0032), recursivas: (56)
+
+Iteracion 48
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 49
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 50
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 51
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 52
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 53
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 54
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 55
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 56
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0029), recursivas: (56)
+
+Iteracion 57
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 58
+FilaxColumna: Tiempo de ejecucion: (0.004), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0037), recursivas: (56)
+
+Iteracion 59
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 60
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 61
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0023), recursivas: (56)
+
+Iteracion 62
+FilaxColumna: Tiempo de ejecucion: (0.0018), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 63
+FilaxColumna: Tiempo de ejecucion: (0.0024), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0152), recursivas: (56)
+
+Iteracion 64
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 65
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 66
+FilaxColumna: Tiempo de ejecucion: (0.0018), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 67
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 68
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 69
+FilaxColumna: Tiempo de ejecucion: (0.0024), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0031), recursivas: (56)
+
+Iteracion 70
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 71
+FilaxColumna: Tiempo de ejecucion: (0.0028), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 72
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 73
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 74
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 75
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 76
+FilaxColumna: Tiempo de ejecucion: (0.0018), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.002), recursivas: (56)
+
+Iteracion 77
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 78
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0028), recursivas: (56)
+
+Iteracion 79
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 80
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 81
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 82
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.003), recursivas: (56)
+
+Iteracion 83
+FilaxColumna: Tiempo de ejecucion: (0.0036), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0029), recursivas: (56)
+
+Iteracion 84
+FilaxColumna: Tiempo de ejecucion: (0.003), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 85
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 86
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 87
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0023), recursivas: (56)
+
+Iteracion 88
+FilaxColumna: Tiempo de ejecucion: (0.0027), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 89
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0024), recursivas: (56)
+
+Iteracion 90
+FilaxColumna: Tiempo de ejecucion: (0.0022), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 91
+FilaxColumna: Tiempo de ejecucion: (0.0021), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0026), recursivas: (56)
+
+Iteracion 92
+FilaxColumna: Tiempo de ejecucion: (0.0023), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0025), recursivas: (56)
+
+Iteracion 93
+FilaxColumna: Tiempo de ejecucion: (0.0046), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0023), recursivas: (56)
+
+Iteracion 94
+FilaxColumna: Tiempo de ejecucion: (0.0017), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+Iteracion 95
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0019), recursivas: (56)
+
+Iteracion 96
+FilaxColumna: Tiempo de ejecucion: (0.0029), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0033), recursivas: (56)
+
+Iteracion 97
+FilaxColumna: Tiempo de ejecucion: (0.0025), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 100
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 100
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+ColumnaXFila: Tiempo de ejecucion: (0.0021), recursivas: (56)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0019), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0027), recursivas: (56)
+
+Iteracion 100
+FilaxColumna: Tiempo de ejecucion: (0.0016), recursivas: (53)
+ColumnaXFila: Tiempo de ejecucion: (0.0022), recursivas: (56)
+
+
+N = 50 ;
+k = 1;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0562), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0574), recursivas: (1058)
+
+
+k=10;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0543), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0603), recursivas: (1058)
+
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.0169), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0319), recursivas: (1058)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.014), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0297), recursivas: (1058)
+
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.027), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0316), recursivas: (1058)
+
+Iteracion 5
+FilaxColumna: Tiempo de ejecucion: (0.0296), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0928), recursivas: (1058)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0545), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0348), recursivas: (1058)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.0301), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0712), recursivas: (1058)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.0186), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.038), recursivas: (1058)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0256), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0785), recursivas: (1058)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0174), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0337), recursivas: (1058)
+
+
+k = 100;
+Iteracion 1
+FilaxColumna: Tiempo de ejecucion: (0.0992), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0673), recursivas: (1058)
+
+Iteracion 2
+FilaxColumna: Tiempo de ejecucion: (0.0147), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0302), recursivas: (1058)
+
+Iteracion 3
+FilaxColumna: Tiempo de ejecucion: (0.0151), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0328), recursivas: (1058)
+
+Iteracion 4
+FilaxColumna: Tiempo de ejecucion: (0.0189), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0862), recursivas: (1058)
+
+Iteracion 5
+FilaxColumna: Tiempo de ejecucion: (0.0272), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0401), recursivas: (1058)
+
+Iteracion 6
+FilaxColumna: Tiempo de ejecucion: (0.0156), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0383), recursivas: (1058)
+
+Iteracion 7
+FilaxColumna: Tiempo de ejecucion: (0.02), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0347), recursivas: (1058)
+
+Iteracion 8
+FilaxColumna: Tiempo de ejecucion: (0.0296), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1143), recursivas: (1058)
+
+Iteracion 9
+FilaxColumna: Tiempo de ejecucion: (0.0231), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0845), recursivas: (1058)
+
+Iteracion 10
+FilaxColumna: Tiempo de ejecucion: (0.0292), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0343), recursivas: (1058)
+
+Iteracion 11
+FilaxColumna: Tiempo de ejecucion: (0.016), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0693), recursivas: (1058)
+
+Iteracion 12
+FilaxColumna: Tiempo de ejecucion: (0.0164), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0403), recursivas: (1058)
+
+Iteracion 13
+FilaxColumna: Tiempo de ejecucion: (0.025), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0406), recursivas: (1058)
+
+Iteracion 14
+FilaxColumna: Tiempo de ejecucion: (0.0163), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0574), recursivas: (1058)
+
+Iteracion 15
+FilaxColumna: Tiempo de ejecucion: (0.0165), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0398), recursivas: (1058)
+
+Iteracion 16
+FilaxColumna: Tiempo de ejecucion: (0.0192), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0384), recursivas: (1058)
+
+Iteracion 17
+FilaxColumna: Tiempo de ejecucion: (0.0186), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0407), recursivas: (1058)
+
+Iteracion 18
+FilaxColumna: Tiempo de ejecucion: (0.0151), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0308), recursivas: (1058)
+
+Iteracion 19
+FilaxColumna: Tiempo de ejecucion: (0.0146), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0304), recursivas: (1058)
+
+Iteracion 20
+FilaxColumna: Tiempo de ejecucion: (0.1067), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0356), recursivas: (1058)
+
+Iteracion 21
+FilaxColumna: Tiempo de ejecucion: (0.0161), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0356), recursivas: (1058)
+
+Iteracion 22
+FilaxColumna: Tiempo de ejecucion: (0.0189), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0352), recursivas: (1058)
+
+Iteracion 23
+FilaxColumna: Tiempo de ejecucion: (0.0162), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1018), recursivas: (1058)
+
+Iteracion 24
+FilaxColumna: Tiempo de ejecucion: (0.0189), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0715), recursivas: (1058)
+
+Iteracion 25
+FilaxColumna: Tiempo de ejecucion: (0.0162), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0331), recursivas: (1058)
+
+Iteracion 26
+FilaxColumna: Tiempo de ejecucion: (0.0447), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0326), recursivas: (1058)
+
+Iteracion 27
+FilaxColumna: Tiempo de ejecucion: (0.0143), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0345), recursivas: (1058)
+
+Iteracion 28
+FilaxColumna: Tiempo de ejecucion: (0.0165), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.3391), recursivas: (1058)
+
+Iteracion 29
+FilaxColumna: Tiempo de ejecucion: (0.0166), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1252), recursivas: (1058)
+
+Iteracion 30
+FilaxColumna: Tiempo de ejecucion: (0.0168), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0468), recursivas: (1058)
+
+Iteracion 31
+FilaxColumna: Tiempo de ejecucion: (0.0158), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.6401), recursivas: (1058)
+
+Iteracion 32
+FilaxColumna: Tiempo de ejecucion: (0.0315), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0353), recursivas: (1058)
+
+Iteracion 33
+FilaxColumna: Tiempo de ejecucion: (0.0298), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0312), recursivas: (1058)
+
+Iteracion 34
+FilaxColumna: Tiempo de ejecucion: (0.0286), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0326), recursivas: (1058)
+
+Iteracion 35
+FilaxColumna: Tiempo de ejecucion: (0.0301), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0309), recursivas: (1058)
+
+Iteracion 36
+FilaxColumna: Tiempo de ejecucion: (0.017), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0326), recursivas: (1058)
+
+Iteracion 37
+FilaxColumna: Tiempo de ejecucion: (0.0297), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0497), recursivas: (1058)
+
+Iteracion 38
+FilaxColumna: Tiempo de ejecucion: (0.0303), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0307), recursivas: (1058)
+
+Iteracion 39
+FilaxColumna: Tiempo de ejecucion: (0.0562), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1228), recursivas: (1058)
+
+Iteracion 40
+FilaxColumna: Tiempo de ejecucion: (0.0164), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0381), recursivas: (1058)
+
+Iteracion 41
+FilaxColumna: Tiempo de ejecucion: (0.0307), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0405), recursivas: (1058)
+
+Iteracion 42
+FilaxColumna: Tiempo de ejecucion: (0.0181), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1662), recursivas: (1058)
+
+Iteracion 43
+FilaxColumna: Tiempo de ejecucion: (0.0172), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0335), recursivas: (1058)
+
+Iteracion 44
+FilaxColumna: Tiempo de ejecucion: (0.0298), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0307), recursivas: (1058)
+
+Iteracion 45
+FilaxColumna: Tiempo de ejecucion: (0.0307), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0326), recursivas: (1058)
+
+Iteracion 46
+FilaxColumna: Tiempo de ejecucion: (0.0284), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0446), recursivas: (1058)
+
+Iteracion 47
+FilaxColumna: Tiempo de ejecucion: (0.0166), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0327), recursivas: (1058)
+
+Iteracion 48
+FilaxColumna: Tiempo de ejecucion: (0.0275), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0308), recursivas: (1058)
+
+Iteracion 49
+FilaxColumna: Tiempo de ejecucion: (0.0164), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.2641), recursivas: (1058)
+
+Iteracion 50
+FilaxColumna: Tiempo de ejecucion: (0.0184), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.041), recursivas: (1058)
+
+Iteracion 51
+FilaxColumna: Tiempo de ejecucion: (0.0166), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0405), recursivas: (1058)
+
+Iteracion 52
+FilaxColumna: Tiempo de ejecucion: (0.0173), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0331), recursivas: (1058)
+
+Iteracion 53
+FilaxColumna: Tiempo de ejecucion: (0.0272), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0396), recursivas: (1058)
+
+Iteracion 54
+FilaxColumna: Tiempo de ejecucion: (0.0154), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0311), recursivas: (1058)
+
+Iteracion 55
+FilaxColumna: Tiempo de ejecucion: (0.0145), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0389), recursivas: (1058)
+
+Iteracion 56
+FilaxColumna: Tiempo de ejecucion: (0.0165), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0732), recursivas: (1058)
+
+Iteracion 57
+FilaxColumna: Tiempo de ejecucion: (0.0164), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0326), recursivas: (1058)
+
+Iteracion 58
+FilaxColumna: Tiempo de ejecucion: (0.0143), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0308), recursivas: (1058)
+
+Iteracion 59
+FilaxColumna: Tiempo de ejecucion: (0.0144), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0303), recursivas: (1058)
+
+Iteracion 60
+FilaxColumna: Tiempo de ejecucion: (0.0157), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0378), recursivas: (1058)
+
+Iteracion 61
+FilaxColumna: Tiempo de ejecucion: (0.0166), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1173), recursivas: (1058)
+
+Iteracion 62
+FilaxColumna: Tiempo de ejecucion: (0.0173), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0746), recursivas: (1058)
+
+Iteracion 63
+FilaxColumna: Tiempo de ejecucion: (0.1761), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.122), recursivas: (1058)
+
+Iteracion 64
+FilaxColumna: Tiempo de ejecucion: (0.0162), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.033), recursivas: (1058)
+
+Iteracion 65
+FilaxColumna: Tiempo de ejecucion: (0.0144), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0308), recursivas: (1058)
+
+Iteracion 66
+FilaxColumna: Tiempo de ejecucion: (0.0142), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0302), recursivas: (1058)
+
+Iteracion 67
+FilaxColumna: Tiempo de ejecucion: (0.0148), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.031), recursivas: (1058)
+
+Iteracion 68
+FilaxColumna: Tiempo de ejecucion: (0.0147), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0305), recursivas: (1058)
+
+Iteracion 69
+FilaxColumna: Tiempo de ejecucion: (0.0149), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.031), recursivas: (1058)
+
+Iteracion 70
+FilaxColumna: Tiempo de ejecucion: (0.0161), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0371), recursivas: (1058)
+
+Iteracion 71
+FilaxColumna: Tiempo de ejecucion: (0.0198), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0401), recursivas: (1058)
+
+Iteracion 72
+FilaxColumna: Tiempo de ejecucion: (0.1106), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1322), recursivas: (1058)
+
+Iteracion 73
+FilaxColumna: Tiempo de ejecucion: (0.0166), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0333), recursivas: (1058)
+
+Iteracion 74
+FilaxColumna: Tiempo de ejecucion: (0.0158), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0385), recursivas: (1058)
+
+Iteracion 75
+FilaxColumna: Tiempo de ejecucion: (0.0169), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0393), recursivas: (1058)
+
+Iteracion 76
+FilaxColumna: Tiempo de ejecucion: (0.0157), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0431), recursivas: (1058)
+
+Iteracion 77
+FilaxColumna: Tiempo de ejecucion: (0.0834), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0441), recursivas: (1058)
+
+Iteracion 78
+FilaxColumna: Tiempo de ejecucion: (0.0156), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0614), recursivas: (1058)
+
+Iteracion 79
+FilaxColumna: Tiempo de ejecucion: (0.0169), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.061), recursivas: (1058)
+
+Iteracion 80
+FilaxColumna: Tiempo de ejecucion: (0.0171), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0331), recursivas: (1058)
+
+Iteracion 81
+FilaxColumna: Tiempo de ejecucion: (0.0157), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0333), recursivas: (1058)
+
+Iteracion 82
+FilaxColumna: Tiempo de ejecucion: (0.0907), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0422), recursivas: (1058)
+
+Iteracion 83
+FilaxColumna: Tiempo de ejecucion: (0.0157), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0323), recursivas: (1058)
+
+Iteracion 84
+FilaxColumna: Tiempo de ejecucion: (0.0145), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0313), recursivas: (1058)
+
+Iteracion 85
+FilaxColumna: Tiempo de ejecucion: (0.0146), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0307), recursivas: (1058)
+
+Iteracion 86
+FilaxColumna: Tiempo de ejecucion: (0.0143), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0302), recursivas: (1058)
+
+Iteracion 87
+FilaxColumna: Tiempo de ejecucion: (0.0176), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1821), recursivas: (1058)
+
+Iteracion 88
+FilaxColumna: Tiempo de ejecucion: (0.0205), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0366), recursivas: (1058)
+
+Iteracion 89
+FilaxColumna: Tiempo de ejecucion: (0.0176), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0577), recursivas: (1058)
+
+Iteracion 90
+FilaxColumna: Tiempo de ejecucion: (0.0167), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0334), recursivas: (1058)
+
+Iteracion 91
+FilaxColumna: Tiempo de ejecucion: (0.0147), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0312), recursivas: (1058)
+
+Iteracion 92
+FilaxColumna: Tiempo de ejecucion: (0.0144), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0375), recursivas: (1058)
+
+Iteracion 93
+FilaxColumna: Tiempo de ejecucion: (0.0153), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0321), recursivas: (1058)
+
+Iteracion 94
+FilaxColumna: Tiempo de ejecucion: (0.0212), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.1408), recursivas: (1058)
+
+Iteracion 95
+FilaxColumna: Tiempo de ejecucion: (0.0189), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0347), recursivas: (1058)
+
+Iteracion 96
+FilaxColumna: Tiempo de ejecucion: (0.0151), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.031), recursivas: (1058)
+
+Iteracion 97
+FilaxColumna: Tiempo de ejecucion: (0.0144), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0305), recursivas: (1058)
+
+Iteracion 98
+FilaxColumna: Tiempo de ejecucion: (0.0151), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0322), recursivas: (1058)
+
+Iteracion 99
+FilaxColumna: Tiempo de ejecucion: (0.0145), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0416), recursivas: (1058)
+
+Iteracion 100
+FilaxColumna: Tiempo de ejecucion: (0.0158), recursivas: (445)
+ColumnaXFila: Tiempo de ejecucion: (0.0909), recursivas: (1058)
