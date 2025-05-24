@@ -85,15 +85,6 @@ void BackTrackingColumnaXFila(int x, int y, int Laberinto[MAX_N][MAX_N], bool vi
     LongitudCaminoActual--;
 }
 
-void imprimirCamino(Pos CaminoEncontrado[MAX_N * MAX_N], int LongitudCaminoEncontrado) {
-    cout << "Camino encontrado:" << endl;
-    for (int i = 0; i < LongitudCaminoEncontrado; ++i) {
-        cout << "(" << CaminoEncontrado[i].x << "," << CaminoEncontrado[i].y << ")";
-        if (i != LongitudCaminoEncontrado - 1) cout << " -> ";
-    }
-    cout << endl;
-}
-
 int main() {
     // Variables de estado
     bool visitado[MAX_N][MAX_N] = {false};
